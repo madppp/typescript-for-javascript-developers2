@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/madppp/typescript-for-javascript-developers2/issues"
   },
-  "homepage": "https://github.com/madppp/typescript-for-javascript-developers2#readme"
+  "homepage": "https://github.com/madppp/typescript-for-javascript-developers2#readme",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  }
 }
