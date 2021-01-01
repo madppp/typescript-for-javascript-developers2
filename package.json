@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/madppp/typescript-for-javascript-developers2/issues"
   },
-  "homepage": "https://github.com/madppp/typescript-for-javascript-developers2#readme"
+  "homepage": "https://github.com/madppp/typescript-for-javascript-developers2#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^3.7.5"
+  }
 }
